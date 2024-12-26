@@ -10,7 +10,7 @@ Web quản lý lương nhân viên Part-Time
                   *Lưu ý tên database phải giống QLNVPartTime hoặc đổi tên database trên chuỗi kết nối*
 - **B3**:Import dữ liệu vào có tên file là data_WebQLLuongNV.spl
 *Nếu B2,B3 làm không được có thể dùng lệnh Package Manager Console :
-                Scaffold-DbContext "Server=__tên mất chủ__;Database=__tên database__;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;"                                                 Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force*
+                Scaffold-DbContext "Server=__tên máy chủ__;Database=__tên database__;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;"                                                 Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force*
 ---
 
 ## Hướng dẫn sử dụng 
