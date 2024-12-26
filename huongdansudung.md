@@ -7,8 +7,10 @@ Web quản lý lương nhân viên Part-Time
 - **B1**:Tải source về
 - **B2**:Thay đổi chuỗi kết nối trong project ví dụ trong QlnvpartTimeContext.cs và appsetting.json :
         - Server=LAPTOP-HILGSKCM;Database=QLNVPartTime;Trusted_Connection=True;TrustServerCertificate=True;
+                  *Lưu ý tên database phải giống QLNVPartTime hoặc đổi tên database trên chuỗi kết nối*
 - **B3**:Import dữ liệu vào có tên file là data_WebQLLuongNV.spl
-
+*Nếu B2,B3 làm không được có thể dùng lệnh Package Manager Console :
+                Scaffold-DbContext "Server=__tên mất chủ__;Database=__tên database__;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;"                                                 Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force*
 ---
 
 ## Hướng dẫn sử dụng 
@@ -37,4 +39,4 @@ Web quản lý lương nhân viên Part-Time
 - **B5**: Xem danh sách đăng ký và lương ở trang lương 
 - **B6**: Bấm nút "Hiển thị lương mỗi nhân viên" để hiển thị lương nhân viên đã làm trong lịch làm đó 
 
-*p/s xem tài khoản, thông tin nhân viên*
+*p/s xem tài khoản, thông tin nhân viên nếu cần*
