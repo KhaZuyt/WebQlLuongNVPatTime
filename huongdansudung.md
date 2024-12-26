@@ -6,7 +6,7 @@ Web quản lý lương nhân viên Part-Time
 
 - **B1**:Tải source về
 - **B2**:Thay đổi chuỗi kết nối trong project ví dụ trong QlnvpartTimeContext.cs và appsetting.json :
-        - Server=LAPTOP-HILGSKCM;Database=QLNVPartTime;Trusted_Connection=True;TrustServerCertificate=True;
+        - Server=__Tên Server_-;Database=_Tên DataBase_-;Trusted_Connection=True;TrustServerCertificate=True;
                   *Lưu ý tên database phải giống QLNVPartTime hoặc đổi tên database trên chuỗi kết nối*
 - **B3**:Import dữ liệu vào có tên file là data_WebQLLuongNV.spl
 
