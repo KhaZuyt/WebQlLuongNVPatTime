@@ -1,0 +1,513 @@
+﻿@model IEnumerable<WebQLLuongNV.Models.LichLam>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spike Free</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="../assets/css/styles.min.css" />
+</head>
+<style>
+    /* CSS để điều chỉnh mức độ bo tròn và đổ bóng */
+    .custom-table {
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    /* Điều chỉnh chiều cao cho dòng thứ 2 và 3 */
+    .increased-height > td, .increased-height > th {
+        height: 180px;
+        padding: 2rem;
+    }
+
+    /* Đảm bảo các ô không bị tràn khi màn hình nhỏ */
+    .table td {
+        padding: 0.5rem;
+        white-space: normal; /* Cho phép chữ xuống dòng */
+        word-break: keep-all; /* Giữ nguyên từ, không chia thành từng ký tự */
+        overflow-wrap: break-word; /* Tự động xuống dòng khi nội dung quá dài */
+    }
+
+    #cotTitle {
+        padding: 0.5rem;
+        white-space: normal; /* Cho phép chữ xuống dòng */
+        word-break: keep-all; /* Giữ nguyên từ, không chia thành từng ký tự */
+        overflow-wrap: break-word; /* Tự động xuống dòng khi nội dung quá dài */
+    }
+
+    .inputTien {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    /* Đảm bảo chữ nhỏ lại và căn trái */
+    .entry {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .small-text {
+        font-size: 0.8rem;
+    }
+
+    .small-table th, .small-table td {
+        padding: 0.2rem;
+    }
+
+    .small-button {
+        font-size: 0.4rem;
+        padding: 0.2rem 0.4rem;
+    }
+    
+
+    #workForm {
+    margin-top:-120px;
+    }
+</style>
+<body>
+    <!--  Body Wrapper -->
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <!-- Sidebar Start -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar" data-simplebar>
+                <div class="d-flex mb-4 align-items-center justify-content-between">
+                    <a href="~/Home" class="text-nowrap logo-img ms-0 ms-md-1">
+                        <img style="margin-left:60%;border-radius:10%" src="~/assets/images/logos/logoTrangchu.webp" width="100" alt="">
+
+                    </a>
+                    <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                        <i class="ti ti-x fs-8"></i>
+                    </div>
+                </div>
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="mb-4 pb-2">
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Trang chủ</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/Home"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-layout-dashboard fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Trang đăng ký</span>
+                            </a>
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Thao tác </span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link warning-hover-bg"
+                               href="~/lich"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-warning rounded-3">
+                                    <i class="ti ti-article fs-7 text-warning"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lịch</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link danger-hover-bg"
+                               href="~/luongcanhan"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-danger rounded-3">
+                                    <i class="ti ti-alert-circle fs-7 text-danger"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lương cá nhân</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link success-hover-bg"
+                               href="~/danhSachNhanVien"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-success rounded-3">
+                                    <i class="ti ti-cards fs-7 text-success"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Danh sách nhân viên</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/Dangky"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-file-description fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Danh sách đã đăng ký<span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link indigo-hover-bg"
+                               href="~/luong"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-indigo rounded-3">
+                                    <i class="ti ti-typography fs-7 text-indigo"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lương</span>
+                            </a>
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Tài khoản</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link warning-hover-bg"
+                               href="~/authentication_login"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-warning rounded-3">
+                                    <i class="ti ti-login fs-7 text-warning"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Đăng xuất</span>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link danger-hover-bg"
+                               href="~/authentication_register"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-danger rounded-3">
+                                    <i class="ti ti-user-plus fs-7 text-danger"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Đăng ký</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Xem thêm</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link success-hover-bg"
+                               href="~/taikhoannhanvien"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-success rounded-3">
+                                    <i class="ti ti-mood-happy fs-7 text-success"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Tài khoản nhân viên</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/loaicongviec"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-aperture fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Loại công việc</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="pb-3 options text-nowrap">
+                        <div class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Lựa chọn khác</span>
+                        </div>
+
+                        <ul class="sidebar-list">
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-primary fs-4"></i>
+                                <span class="hide-menu ms-2">Liên hệ Quản lý </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-danger fs-4"></i>
+                                <span class="hide-menu ms-2">Thông tin cá nhân </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-warning fs-4"></i>
+                                <span class="hide-menu ms-2">Khiếu nại </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-success fs-4"></i>
+                                <span class="hide-menu ms-2">Nhận lương online </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-indigo fs-4"></i>
+                                <span class="hide-menu ms-2">.v.vv..</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-5 blocks-card sidebar-ad">
+                        <div class="card bg-light-primary">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="~/assets/images/backgrounds/education-blocks.png"
+                                         width="136"
+                                         height="136"
+                                         class="mt-n9"
+                                         alt="" />
+
+                                    <h5>Bạn có hài lòng <br /> khi sử dụng ứng dụng này không ?</h5>
+
+                                    <div class="mt-4">
+                                        <a href="" target="_blank" class="btn btn-primary buynow-link w-100 px-2">
+                                            Góp ý
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!--  Sidebar End -->
+        <!--  Main wrapper -->
+        <div class="body-wrapper">
+            <!--  Header Start -->
+            <header class="app-header">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-block d-xl-none">
+                            <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
+                                <i class="ti ti-menu-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon-hover" href="javascript:void(0)">
+                                <i class="ti ti-bell-ringing"></i>
+                                <div class="notification bg-primary rounded-circle"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+                        <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+                            <a class="btn btn-primary">     Chào @(ViewContext.HttpContext.Session.GetString("TenNhanVien") ?? "Khách")</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    <img src="../assets/images/profile/user1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                                    <div class="message-body">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-user fs-6"></i>
+                                            <p class="mb-0 fs-3">Thông tin cá nhân</p>
+                                        </a>
+                                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-mail fs-6"></i>
+                                            <p class="mb-0 fs-3">Tài khoản cá nhân</p>
+                                        </a>
+                                        <a href="~/Dangky" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-list-check fs-6"></i>
+                                            <p class="mb-0 fs-3">Danh sách đã đăng ký</p>
+                                        </a>
+                                        <a href="~/authentication_login" class="btn btn-outline-primary mx-3 mt-2 d-block shadow-none">Đăng xuất </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </header>
+            <!--  Header End -->
+
+            <div class="container-fluid">
+                <h5>Tìm kiếm lịch làm việc</h5>
+                <form method="get" action="/lich/Index">
+                    <div class="container-sm" style="display:flex; gap:10%;">
+                        <input type="text" name="timMa" class="form-control input-group-sm" style="flex: 1;" placeholder="Nhập mã lịch" />
+                        <input type="date" name="timNgay" class="form-control input-group-sm" style="flex: 2;" placeholder="Nhập ngày" />
+                        <button type="submit" class="btn btn-primary" style="width:5rem">Tìm</button>
+                    </div>
+                </form>
+                <div class="container my-4">  <button id="showFormButton" class="btn btn-primary" onclick="xemchitietForm()">Tạo Lịch Làm</button></div>
+              
+            </div>
+            <div id="formContainer" style="display:none;"></div>
+         
+
+           
+            <div class="container-fluid" style="margin-top:-100px">
+                <div class="card">
+                    <div class="card-body">
+                      
+                        <div class="container my-5">
+                            <div class="table-responsive">
+                                <h5 class="card-title fw-semibold mb-4">Danh sách lịch</h5>
+
+                                <table class="table table-bordered text-center mt-3 small-text">
+                                    <thead>
+                                        <tr>
+                                            <th>Mã Lịch</th>
+                                            <th>Mã Quản Lý</th>
+                                            <th>Ngày Làm</th>
+                                            <th>Tổng Số Ca Quy Định</th>
+                                            <th>Thao Tác</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@item.MaLichLam</td>
+                                                <td>@item.MaQuanLy</td>
+                                              
+                                                <td>@item.ThuNgayThangNam?.ToString("dd/MM/yyyy")</td>
+                                                <td>@item.SoCaQuyDinh</td>
+                                                <td>
+                                                  
+                                                     <button id="showEditFormButton" class="btn btn-info btn-sm" onclick="xemchitietEditForm('@item.MaLichLam')">Sửa Lịch Làm</button>
+                                                   
+                                                    <a href="@Url.Action("formthembuoi_chitietlichlam", new { id = item.MaLichLam })" class="btn btn-success btn-sm">Thêm buổi</a>
+                                                    <a href="@Url.Action("hienchitietBuoiLichlam", new { id = item.MaLichLam })" class="btn btn-light btn-sm">Chi tiêt </a>
+
+                                                    <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete('@item.MaLichLam')">Xóa</button>
+                                                </td>
+                                            </tr>
+                                            <tr> <td colspan="5"> <div id="editFormContainer_@item.MaLichLam" style="display:none;"></div> </td> </tr>
+                                        }
+                                    </tbody>
+                                 
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+
+            <!-- Form nhập thông tin công việc -->
+            <!-- Modal hiển thị lỗi -->
+            <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-danger" id="errorModalLabel">Lỗi</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Nội dung lỗi sẽ được chèn vào đây -->
+                            <div id="errorMessages"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>  
+        </div>
+    </div>
+    <script>
+
+        function confirmDelete(maLichLam) {
+            // Hiển thị hộp thoại xác nhận
+            if (confirm("Bạn có chắc chắn muốn xóa lịch làm này không? Nó sẽ xóa tất cả các buổi trong lịch .")) {
+                // Nếu người dùng chọn 'Có', chuyển hướng tới phương thức xóa
+                window.location.href = `/Lich/Delete/${maLichLam}`;
+            } else {
+                // Nếu người dùng chọn 'Không', không làm gì
+                console.log("Hủy xóa lịch làm");
+            }
+        }
+        function xemchitietForm() {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                if (document.getElementById("formContainer").style.display === "none") {
+                    // Hiển thị form nếu chưa được hiển thị
+                    document.getElementById("formContainer").innerHTML = xhttp.responseText;
+                    document.getElementById("formContainer").style.display = "block";
+                } else {
+                    // Ẩn form nếu đang hiển thị
+                    document.getElementById("formContainer").style.display = "none";
+                }
+            }
+            const url = "/Lich/formTaoLichLam"; // Đường dẫn tới action trả về form tạo lịch làm
+            // Gửi yêu cầu tới server để lấy form
+            xhttp.open("GET", url);
+            xhttp.send();
+        }
+        document.getElementById("lichForm").onsubmit = function (event) {
+            event.preventDefault(); // Ngăn chặn form submit thông thường
+
+            const formData = new FormData(document.getElementById("lichForm"));
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                if (xhttp.status == 200) {
+                    // Xử lý phản hồi từ server, ví dụ: hiển thị thông báo thành công
+                    alert("Lịch làm đã được lưu!");
+                    document.getElementById("formContainer").style.display = "none"; // Ẩn form sau khi lưu
+                } else {
+                    // Xử lý lỗi, ví dụ: hiển thị thông báo lỗi
+                    alert("Có lỗi xảy ra, vui lòng thử lại.");
+                }
+            };
+
+            xhttp.open("POST", "/Lich/taolichlam", true);
+            xhttp.send(formData);
+        };
+
+        // Hàm để mở form sửa
+        function xemchitietEditForm(id) {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                const containerId = "editFormContainer_" + id;
+                const container = document.getElementById(containerId);
+
+                if (container.style.display === "none") {
+                    // Hiển thị form nếu chưa được hiển thị
+                    container.innerHTML = xhttp.responseText;
+                    container.style.display = "block";
+                } else {
+                    // Ẩn form nếu đang hiển thị
+                    container.style.display = "none";
+                }
+            };
+            const url = "/lich/formSuaLichLam?id=" + id; // Đường dẫn tới action trả về form sửa lịch làm
+            // Gửi yêu cầu tới server để lấy form
+            xhttp.open("GET", url);
+            xhttp.send();
+        }
+
+        // Xử lý việc submit form sửa lịch làm
+        function submitEditForm(formId, containerId) {
+            document.getElementById(formId).onsubmit = function (event) {
+                event.preventDefault(); // Ngăn chặn form submit thông thường
+
+                const formData = new FormData(document.getElementById(formId));
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function () {
+                    if (xhttp.status == 200) {
+                        // Xử lý phản hồi từ server, ví dụ: hiển thị thông báo thành công
+                        alert("Lịch làm đã được cập nhật!");
+                        document.getElementById(containerId).style.display = "none"; // Ẩn form sau khi lưu
+                        location.reload();
+                    } else {
+                        // Xử lý lỗi, ví dụ: hiển thị thông báo lỗi
+                        alert("Có lỗi xảy ra, vui lòng thử lại.");
+                    }
+                };
+
+                xhttp.open("POST", "/lich/sualichlam", true);
+                xhttp.send(formData);
+            };
+        }
+
+   
+
+
+
+    </script>
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/sidebarmenu.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
+</body>
+
+</html>

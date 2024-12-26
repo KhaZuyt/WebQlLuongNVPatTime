@@ -1,0 +1,1317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\qlnvparttimecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\qlnvparttimecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\lichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\lichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\loaicongvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\loaicongvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\migrations\\20241226085949_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\migrations\\20241226085949_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\migrations\\qlnvparttimecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\migrations\\qlnvparttimecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\migrations\\20241119155126_addmaloaicongviectochitietlichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\migrations\\20241119155126_addmaloaicongviectochitietlichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\migrations\\20241118141544_addthoigiandkcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\migrations\\20241118141544_addthoigiandkcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\quyenanthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\quyenanthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\danhsachnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\danhsachnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\danhsachnhanvien\\formsuanhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\danhsachnhanvien\\formsuanhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\chitietlichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\chitietlichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\taikhoannhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\taikhoannhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\authentication-logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\authentication-logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\taikhoannhanvien\\formthemtaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\taikhoannhanvien\\formthemtaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\danhsachnhanvien\\formthemnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\danhsachnhanvien\\formthemnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\motahuongdancongvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\motahuongdancongvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\luongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\luongcanhancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\luongcanhancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\controllers\\authentication-registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\controllers\\authentication-registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\danhsachnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\danhsachnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\ctaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\ctaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\home\\formhienbuoidangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\home\\formhienbuoidangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\authentication_login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\authentication_login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\taikhoannhanvien\\formsuataikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\taikhoannhanvien\\formsuataikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\cnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\cnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\taikhoannhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\taikhoannhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lich\\formsuabuoilichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lich\\formsuabuoilichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\danhsachnhanvien\\chitietnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\danhsachnhanvien\\chitietnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\luong\\luongmoinhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\luong\\luongmoinhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\home\\formthemcongvieckhac.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\home\\formthemcongvieckhac.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\home\\danhsachdangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\home\\danhsachdangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lich\\hienchitietbuoilichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lich\\hienchitietbuoilichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lich\\formchitietcalamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lich\\formchitietcalamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\cchitietcalamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\cchitietcalamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\cchitietlichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\cchitietlichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\clichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\clichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lich\\formthembuoi_chitietlichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lich\\formthembuoi_chitietlichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\calamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\calamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lich\\formsualichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lich\\formsualichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\lich\\formtaolichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\lich\\formtaolichlam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\lichlam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\cdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\cdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\chitietcalamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\chitietcalamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\loaicongviec\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\loaicongviec\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\motahuongdancongviec\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\motahuongdancongviec\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\cbangluongnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\cbangluongnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\bangluongnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\bangluongnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\dsluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\dsluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\cbangluongallnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\cbangluongallnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\ctongluongtheolich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\ctongluongtheolich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\viewmodel\\hienthidsluonh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\viewmodel\\hienthidsluonh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\tongluongallnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\tongluongallnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\loaicongviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\loaicongviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\authentication_register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\authentication_register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\models\\vaitro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\models\\vaitro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\wwwroot\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\wwwroot\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\wwwroot\\assets\\libs\\apexcharts\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\wwwroot\\assets\\libs\\apexcharts\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\wwwroot\\assets\\css\\styles.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\wwwroot\\assets\\css\\styles.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\wwwroot\\assets\\images\\logos\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\wwwroot\\assets\\images\\logos\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\wwwroot\\assets\\images\\logos\\dark-logo.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\wwwroot\\assets\\images\\logos\\dark-logo.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|d:\\da_thuctapchuyennganh\\da_thuctapchuyennganh\\webqlluongnv - sao ch\u00E9p - sao ch\u00E9p\\webqlluongnv\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5F50EFB5-4B6E-4DAF-8AF9-32C33BD55AA9}|WebQLLuongNV\\WebQLLuongNV.csproj|solutionrelative:webqlluongnv\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "danhSachNhanVienController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\danhSachNhanVienController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\danhSachNhanVienController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\danhSachNhanVienController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\danhSachNhanVienController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T10:08:13.049Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "formSuaNhanVien.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\formSuaNhanVien.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\danhSachNhanVien\\formSuaNhanVien.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\formSuaNhanVien.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\danhSachNhanVien\\formSuaNhanVien.cshtml",
+              "ViewState": "AgIAAGYBAAAAAAAAAAAowIABAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T18:33:37.022Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QlnvpartTimeContext.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\QlnvpartTimeContext.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\QlnvpartTimeContext.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\QlnvpartTimeContext.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\QlnvpartTimeContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:30:04.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\appsettings.json",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\appsettings.json",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\appsettings.json",
+              "RelativeToolTip": "WebQLLuongNV\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T17:07:48.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lichController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\lichController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\lichController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\lichController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\lichController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T19:23:29.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "loaicongviecController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\loaicongviecController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\loaicongviecController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\loaicongviecController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\loaicongviecController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:42:48.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241226085949_initial.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\20241226085949_initial.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Migrations\\20241226085949_initial.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\20241226085949_initial.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Migrations\\20241226085949_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:59:50.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QlnvpartTimeContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\QlnvpartTimeContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Migrations\\QlnvpartTimeContextModelSnapshot.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\QlnvpartTimeContextModelSnapshot.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Migrations\\QlnvpartTimeContextModelSnapshot.cs",
+              "ViewState": "AgIAAPEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:37:24.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241119155126_AddMaLoaiCongViecToChiTietLichLam.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\20241119155126_AddMaLoaiCongViecToChiTietLichLam.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Migrations\\20241119155126_AddMaLoaiCongViecToChiTietLichLam.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\20241119155126_AddMaLoaiCongViecToChiTietLichLam.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Migrations\\20241119155126_AddMaLoaiCongViecToChiTietLichLam.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:25:57.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241118141544_AddThoiGianDKColumn.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\20241118141544_AddThoiGianDKColumn.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Migrations\\20241118141544_AddThoiGianDKColumn.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Migrations\\20241118141544_AddThoiGianDKColumn.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Migrations\\20241118141544_AddThoiGianDKColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:15:45.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuyenAnthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\QuyenAnthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\QuyenAnthorizeAttribute.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\QuyenAnthorizeAttribute.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\QuyenAnthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:36:42.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\appsettings.Development.json",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\appsettings.Development.json",
+              "RelativeToolTip": "WebQLLuongNV\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-19T09:54:52.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChiTietLichLam.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ChiTietLichLam.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ChiTietLichLam.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ChiTietLichLam.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ChiTietLichLam.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:45:15.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\DangKy.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\DangKy.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\DangKy.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\DangKy.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T06:41:05.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DangkyController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\DangkyController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\DangkyController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\DangkyController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\DangkyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:02:18.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "taikhoannhanvienController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\taikhoannhanvienController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\taikhoannhanvienController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\taikhoannhanvienController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\taikhoannhanvienController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:58:36.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "authentication-loginController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\authentication-loginController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\authentication-loginController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\authentication-loginController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\authentication-loginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:26:43.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lienHe\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lienHe\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lienHe\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lienHe\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T05:29:15.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "formThemNhanVien.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\formThemNhanVien.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\danhSachNhanVien\\formThemNhanVien.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\formThemNhanVien.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\danhSachNhanVien\\formThemNhanVien.cshtml",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAAEcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T12:57:01.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "formThemTaiKhoan.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\taikhoannhanvien\\formThemTaiKhoan.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\taikhoannhanvien\\formThemTaiKhoan.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\taikhoannhanvien\\formThemTaiKhoan.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\taikhoannhanvien\\formThemTaiKhoan.cshtml",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAcwBQBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T18:07:59.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "motahuongdancongviecController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\motahuongdancongviecController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\motahuongdancongviecController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\motahuongdancongviecController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\motahuongdancongviecController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:29:16.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "luongController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\luongController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\luongController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\luongController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\luongController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:43:55.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "luongcanhanController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\luongcanhanController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\luongcanhanController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\luongcanhanController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\luongcanhanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:43:55.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "lienHeController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\lienHeController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\lienHeController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\lienHeController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\lienHeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T05:29:00.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:43:05.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "authentication-registerController.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\authentication-registerController.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Controllers\\authentication-registerController.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Controllers\\authentication-registerController.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Controllers\\authentication-registerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:36:31.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\danhSachNhanVien\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\danhSachNhanVien\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T12:20:49.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CTaiKhoan.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CTaiKhoan.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CTaiKhoan.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CTaiKhoan.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CTaiKhoan.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:10:00.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "formhienbuoiDangky.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\formhienbuoiDangky.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Home\\formhienbuoiDangky.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\formhienbuoiDangky.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Home\\formhienbuoiDangky.cshtml",
+              "ViewState": "AgIAAJQBAAAAAAAAAAAAAKYBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:00:56.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\authentication_login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\authentication_login\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\authentication_login\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\authentication_login\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T05:26:23.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "formSuaTaiKhoan.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\taikhoannhanvien\\formSuaTaiKhoan.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\taikhoannhanvien\\formSuaTaiKhoan.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\taikhoannhanvien\\formSuaTaiKhoan.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\taikhoannhanvien\\formSuaTaiKhoan.cshtml",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAkwCcBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:35:24.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\taikhoannhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\taikhoannhanvien\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\taikhoannhanvien\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\taikhoannhanvien\\Index.cshtml",
+              "ViewState": "AgIAACsBAAAAAAAAAAAAAD8BAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T17:34:16.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\TaiKhoan.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:32:30.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CNhanVien.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CNhanVien.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CNhanVien.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CNhanVien.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CNhanVien.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:24:56.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\NhanVien.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\NhanVien.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:42:29.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PhanQuyen.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\PhanQuyen.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\PhanQuyen.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\PhanQuyen.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\PhanQuyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:32:21.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "formsuabuoilichlam.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formsuabuoilichlam.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lich\\formsuabuoilichlam.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formsuabuoilichlam.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lich\\formsuabuoilichlam.cshtml",
+              "ViewState": "AgIAADgBAAAAAAAAAAAAADkBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:28:31.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "chitietnhanvien.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\chitietnhanvien.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\danhSachNhanVien\\chitietnhanvien.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\danhSachNhanVien\\chitietnhanvien.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\danhSachNhanVien\\chitietnhanvien.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:40:56.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "formthemcongvieckhac.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\formthemcongvieckhac.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Home\\formthemcongvieckhac.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\formthemcongvieckhac.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Home\\formthemcongvieckhac.cshtml",
+              "ViewState": "AgIAALYBAAAAAAAAAAAAADkBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T17:04:18.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "luongmoinhanvien.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\luong\\luongmoinhanvien.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\luong\\luongmoinhanvien.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\luong\\luongmoinhanvien.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\luong\\luongmoinhanvien.cshtml",
+              "ViewState": "AgIAAK8CAAAAAAAAAAAAAJ8CAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T10:33:50.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Dangky\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Dangky\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Dangky\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Dangky\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T13:21:45.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DanhSachDangKy.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\DanhSachDangKy.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Home\\DanhSachDangKy.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\DanhSachDangKy.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Home\\DanhSachDangKy.cshtml",
+              "ViewState": "AgIAALsBAAAAAAAAAAAAAEwBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T17:14:16.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAANUAAAAAAAAAAAAcwAwBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T13:41:54.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "hienchitietBuoiLichlam.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\hienchitietBuoiLichlam.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lich\\hienchitietBuoiLichlam.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\hienchitietBuoiLichlam.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lich\\hienchitietBuoiLichlam.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAD4BAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T16:21:31.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "formchitietcalamviec.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formchitietcalamviec.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lich\\formchitietcalamviec.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formchitietcalamviec.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lich\\formchitietcalamviec.cshtml",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAAAH8BAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T11:42:18.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CChitietcalamviec.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CChitietcalamviec.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CChitietcalamviec.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CChitietcalamviec.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CChitietcalamviec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:13:16.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CChitietlichlam.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CChitietlichlam.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CChitietlichlam.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CChitietlichlam.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CChitietlichlam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:39:10.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CLichLam.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CLichLam.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CLichLam.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CLichLam.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CLichLam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:19:13.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "formthembuoi_chitietlichlam.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formthembuoi_chitietlichlam.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lich\\formthembuoi_chitietlichlam.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formthembuoi_chitietlichlam.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lich\\formthembuoi_chitietlichlam.cshtml",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAAAEMBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:10:48.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "formSuaLichLam.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formSuaLichLam.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lich\\formSuaLichLam.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formSuaLichLam.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lich\\formSuaLichLam.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T14:28:35.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CalamViec.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\CalamViec.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\CalamViec.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\CalamViec.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\CalamViec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T14:37:17.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LichLam.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\LichLam.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\LichLam.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\LichLam.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\LichLam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:26:18.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "formTaoLichLam.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formTaoLichLam.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\lich\\formTaoLichLam.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\lich\\formTaoLichLam.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\lich\\formTaoLichLam.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:21:21.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CDangky.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CDangky.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CDangky.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CDangky.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CDangky.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:44:36.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ChiTietCaLamViec.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ChiTietCaLamViec.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ChiTietCaLamViec.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ChiTietCaLamViec.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ChiTietCaLamViec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T14:37:13.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\loaicongviec\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\loaicongviec\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\loaicongviec\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\loaicongviec\\Index.cshtml",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAAP4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T12:26:48.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAAAoBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T13:40:16.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\motahuongdancongviec\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\motahuongdancongviec\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\motahuongdancongviec\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\motahuongdancongviec\\Index.cshtml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAswP4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T14:44:12.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T13:33:02.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CBangluongNV.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CBangluongNV.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CBangluongNV.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CBangluongNV.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CBangluongNV.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:01:39.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BangLuongNv.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\BangLuongNv.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\BangLuongNv.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\BangLuongNv.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\BangLuongNv.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:30:12.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DSluong.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\DSluong.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\DSluong.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\DSluong.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\DSluong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:37:59.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CBangLuongAllNV.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CBangLuongAllNV.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CBangLuongAllNV.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CBangLuongAllNV.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CBangLuongAllNV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:00:11.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CTongluongtheoLich.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CTongluongtheoLich.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\CTongluongtheoLich.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\CTongluongtheoLich.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\CTongluongtheoLich.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:38:18.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "HienthiDSLuonh.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\HienthiDSLuonh.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ViewModel\\HienthiDSLuonh.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ViewModel\\HienthiDSLuonh.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ViewModel\\HienthiDSLuonh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:20:19.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "TongLuongAllnv.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\TongLuongAllnv.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\TongLuongAllnv.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\TongLuongAllnv.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\TongLuongAllnv.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:32:35.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T12:31:45.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Program.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Program.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Program.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:47:15.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T12:30:50.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebQLLuongNV\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-21T11:28:38.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "MySession.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\MySession.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\MySession.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\MySession.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\MySession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:28:29.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:02:08.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "LoaiCongViec.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\LoaiCongViec.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\LoaiCongViec.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\LoaiCongViec.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\LoaiCongViec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:32:10.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\authentication_register\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\authentication_register\\Index.cshtml",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\authentication_register\\Index.cshtml",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\authentication_register\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T12:36:42.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "VaiTro.cs",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\VaiTro.cs",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Models\\VaiTro.cs",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Models\\VaiTro.cs",
+              "RelativeToolTip": "WebQLLuongNV\\Models\\VaiTro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:32:39.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "apexcharts.amd.js",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+              "RelativeToolTip": "WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAADzewEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-30T16:54:16.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\package.json",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\package.json",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\package.json",
+              "RelativeToolTip": "WebQLLuongNV\\wwwroot\\assets\\libs\\apexcharts\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T13:27:32.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "styles.min.css",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\css\\styles.min.css",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\wwwroot\\assets\\css\\styles.min.css",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\css\\styles.min.css",
+              "RelativeToolTip": "WebQLLuongNV\\wwwroot\\assets\\css\\styles.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-15T08:28:39.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "WebQLLuongNV\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-08T13:44:10.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "dark-logo.svg",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\images\\logos\\dark-logo.svg",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\wwwroot\\assets\\images\\logos\\dark-logo.svg",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\images\\logos\\dark-logo.svg",
+              "RelativeToolTip": "WebQLLuongNV\\wwwroot\\assets\\images\\logos\\dark-logo.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-15T06:45:18.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "favicon.png",
+              "DocumentMoniker": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\images\\logos\\favicon.png",
+              "RelativeDocumentMoniker": "WebQLLuongNV\\wwwroot\\assets\\images\\logos\\favicon.png",
+              "ToolTip": "D:\\DA_ThucTapChuyenNganh\\DA_ThucTapChuyenNganh\\WebQLLuongNV - Sao ch\u00E9p - Sao ch\u00E9p\\WebQLLuongNV\\wwwroot\\assets\\images\\logos\\favicon.png",
+              "RelativeToolTip": "WebQLLuongNV\\wwwroot\\assets\\images\\logos\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-15T06:45:21.23Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang quản lý lương Part-Time </title>
+    <link rel="shortcut icon" type="image/png" href="~/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/assets/css/styles.min.css" />
+</head>
+<style>
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+        border-color: #dee2e6;
+    }
+
+    .table th {
+        font-size: 16px;
+    }
+
+    .table td {
+        font-size: 14px;
+    }
+
+  
+    .row{
+        display:flex;
+    }
+    .align-items-stretch{
+        margin-left:2%;
+        
+    }
+    /* CSS để điều chỉnh mức độ bo tròn và đổ bóng */
+    .custom-table {
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    /* Điều chỉnh chiều cao cho dòng thứ 2 và 3 */
+    .increased-height > td, .increased-height > th {
+        height: 180px;
+        padding: 2rem;
+    }
+
+    /* Đảm bảo các ô không bị tràn khi màn hình nhỏ */
+     .table td {
+        padding: 0.5rem;
+        white-space: normal; /* Cho phép chữ xuống dòng */
+        word-break: keep-all; /* Giữ nguyên từ, không chia thành từng ký tự */
+        overflow-wrap: break-word; /* Tự động xuống dòng khi nội dung quá dài */
+    }
+
+    #cotTitle{
+        padding: 0.5rem;
+        white-space: normal; /* Cho phép chữ xuống dòng */
+        word-break: keep-all; /* Giữ nguyên từ, không chia thành từng ký tự */
+        overflow-wrap: break-word; /* Tự động xuống dòng khi nội dung quá dài */
+    }
+
+    .inputTien {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+</style>
+
+
+<body>
+
+    <!--  Body Wrapper -->
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <!-- Sidebar Start -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar" data-simplebar>
+                <div class="d-flex mb-4 align-items-center justify-content-between">
+                    <a href="~/Home" class="text-nowrap logo-img ms-0 ms-md-1">
+                        <img style="margin-left:60%;border-radius:10%" src="~/assets/images/logos/logoTrangchu.webp" width="100" alt=""> 
+                        
+                    </a>
+                    <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                        <i class="ti ti-x fs-8"></i>
+                    </div>
+                </div>
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="mb-4 pb-2">
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Trang chủ</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/Home"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-layout-dashboard fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Trang đăng ký</span>
+                            </a>
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Thao tác </span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link warning-hover-bg"
+                               href="~/lich"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-warning rounded-3">
+                                    <i class="ti ti-article fs-7 text-warning"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lịch</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link danger-hover-bg"
+                               href="~/luongcanhan"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-danger rounded-3">
+                                    <i class="ti ti-alert-circle fs-7 text-danger"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lương cá nhân</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link success-hover-bg"
+                               href="~/danhSachNhanVien"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-success rounded-3">
+                                    <i class="ti ti-cards fs-7 text-success"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Danh sách nhân viên</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/Dangky"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-file-description fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Danh sách đã đăng ký<span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link indigo-hover-bg"
+                               href="~/luong"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-indigo rounded-3">
+                                    <i class="ti ti-typography fs-7 text-indigo"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lương</span>
+                            </a>
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Tài khoản</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link warning-hover-bg"
+                               href="~/authentication_login"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-warning rounded-3">
+                                    <i class="ti ti-login fs-7 text-warning"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Đăng xuất</span>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link danger-hover-bg"
+                               href="~/authentication_register"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-danger rounded-3">
+                                    <i class="ti ti-user-plus fs-7 text-danger"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Đăng ký</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Xem thêm</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link success-hover-bg"
+                               href="~/taikhoannhanvien"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-success rounded-3">
+                                    <i class="ti ti-mood-happy fs-7 text-success"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Tài khoản nhân viên</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/loaicongviec"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-aperture fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Loại công việc</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="pb-3 options text-nowrap">
+                        <div class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Lựa chọn khác</span>
+                        </div>
+
+                        <ul class="sidebar-list">
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-primary fs-4"></i>
+                                <span class="hide-menu ms-2">Liên hệ Quản lý </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-danger fs-4"></i>
+                                <span class="hide-menu ms-2">Thông tin cá nhân </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-warning fs-4"></i>
+                                <span class="hide-menu ms-2">Khiếu nại </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-success fs-4"></i>
+                                <span class="hide-menu ms-2">Nhận lương online </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-indigo fs-4"></i>
+                                <span class="hide-menu ms-2">.v.vv..</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-5 blocks-card sidebar-ad">
+                        <div class="card bg-light-primary">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="~/assets/images/backgrounds/education-blocks.png"
+                                         width="136"
+                                         height="136"
+                                         class="mt-n9"
+                                         alt="" />
+
+                                    <h5>Bạn có hài lòng <br /> khi sử dụng ứng dụng này không ?</h5>
+
+                                    <div class="mt-4">
+                                        <a href="" target="_blank" class="btn btn-primary buynow-link w-100 px-2">
+                                            Góp ý
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!--  Sidebar End -->
+        <!--  Main wrapper -->
+        <div class="body-wrapper">
+            <!--  Header Start -->
+            <header class="app-header">
+                
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-block d-xl-none">
+                            <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
+                                <i class="ti ti-menu-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon-hover" href="javascript:void(0)">
+                                <i class="ti ti-bell-ringing"></i>
+                                <div class="notification bg-primary rounded-circle"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+                        <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+                            <a class="btn btn-primary">     Chào @(ViewContext.HttpContext.Session.GetString("TenNhanVien") ?? "Khách")</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    <img src="../assets/images/profile/user1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                                    <div class="message-body">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-user fs-6"></i>
+                                            <p class="mb-0 fs-3">Thông tin cá nhân</p>
+                                        </a>
+                                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-mail fs-6"></i>
+                                            <p class="mb-0 fs-3">Tài khoản cá nhân</p>
+                                        </a>
+                                        <a href="~/Dangky" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-list-check fs-6"></i>
+                                            <p class="mb-0 fs-3">Danh sách đã đăng ký</p>
+                                        </a>
+                                        <a href="~/authentication_login" class="btn btn-outline-primary mx-3 mt-2 d-block shadow-none">Đăng xuất </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </header>
+            <!--  Header End -->
+            <div class="container-fluid" >
+                <div class="card shadow mb-5 border-0" style="border-radius: 12px;">
+                    <div class="card-body p-5">
+                        <h4 class="text-center fw-bold mb-4" style="color: #4A4A4A;">Danh sách lịch</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered text-center align-middle" style="border-radius: 12px; overflow: hidden;">
+                                <thead style="background-color: #6c63ff; color: white;">
+                                    <tr>
+                                        <th>Mã Lịch</th>
+                                        <th>Mã Quản Lý</th>
+                                        <th>Ngày Làm</th>
+                                        <th>Tổng Số Ca Quy Định</th>
+                                        <th>Thao Tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr style="background-color: #f9f9f9;">
+                                            <td>@item.MaLichLam</td>
+                                            <td>@item.MaQuanLy</td>
+                                            <td>@item.ThuNgayThangNam?.ToString("dd/MM/yyyy")</td>
+                                            <td>@item.SoCaQuyDinh</td>
+                                            <td>
+                                                <a href="@Url.Action("", new { id = item.MaLichLam })" class="btn btn-success btn-sm" style="border-radius: 8px;">Liên hệ sửa đổi</a>
+                                                <a href="@Url.Action("formhienbuoidangky", new { id = item.MaLichLam })" class="btn btn-primary btn-sm" style="border-radius: 8px;">Đăng ký</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-6">
+                            <!-- Yearly Breakup -->
+                            <div class="card overflow-hidden">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-10 fw-semibold">Lương tháng vừa qua</h5>
+                                    <div class="row align-items-center">
+                                        <div class="col-7">
+                                            <h4 class="fw-semibold mb-3">2.000.000 vnd </h4>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <span class="me-1 rounded-circle bg-light-success round-20 d-flex align-items-center justify-content-center">
+                                                    <i class="ti ti-arrow-up-left text-success"></i>
+                                                </span>
+                                                <p class="text-dark me-1 fs-3 mb-0">+9%</p>
+                                                <p class="fs-3 mb-0">tháng trước đó</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="me-3">
+                                                    <span class="round-8 bg-primary rounded-circle me-2 d-inline-block"></span>
+                                                    <span class="fs-2">Oragnic</span>
+                                                </div>
+                                                <div>
+                                                    <span class="round-8 bg-danger rounded-circle me-2 d-inline-block"></span>
+                                                    <span class="fs-2">Refferal</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="d-flex justify-content-center">
+                                                <div id="grade"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-sm-6">
+                            <!-- Monthly Earnings -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row alig n-items-start">
+                                        <div class="col-8">
+                                            <h5 class="card-title mb-10 fw-semibold">Tổng lương một năm qua</h5>
+                                            <h4 class="fw-semibold mb-3">30.000.000 vnd</h4>
+                                            <div class="d-flex align-items-center pb-1">
+                                                <span class="me-2 rounded-circle bg-light-danger round-20 d-flex align-items-center justify-content-center">
+                                                    <i class="ti ti-arrow-down-right text-danger"></i>
+                                                </span>
+                                                <p class="text-dark me-1 fs-3 mb-0">+9%</p>
+                                                <p class="fs-3 mb-0">năm trước</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-end">
+                                                <div class="text-white bg-danger rounded-circle p-7 d-flex align-items-center justify-content-center">
+                                                    <i class="ti ti-currency-dollar fs-6"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="earning"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-lg-4 d-flex align-items-stretch" >
+                    <div class="card w-100">
+                        <div class="card-body p-4">
+                            <div class="mb-4">
+                                <h5 class="card-title fw-semibold">Lịch làm việc phục vụ cơ bản</h5>
+                            </div>
+                            <ul class="timeline-widget mb-0 position-relative mb-n5">
+                                <li class="timeline-item d-flex position-relative overflow-hidden">
+                                    <div class="timeline-time text-dark flex-shrink-0 text-end">08:00 am</div>
+                                    <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                                        <span class="timeline-badge border-2 border border-primary flex-shrink-0 my-2"></span>
+                                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                                    </div>
+                                    <div class="timeline-desc fs-3 text-dark mt-n1">Bắt đầu vô ca 1 buổi sáng</div>
+                                </li>
+                                <li class="timeline-item d-flex position-relative overflow-hidden">
+                                    <div class="timeline-time text-dark flex-shrink-0 text-end">10:00 am</div>
+                                    <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                                        <span class="timeline-badge border-2 border border-info flex-shrink-0 my-2"></span>
+                                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                                    </div>
+                                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">
+                                        Bắt đầu ca 2 buổi sáng <a href="javascript:void(0)" class="text-primary d-block fw-normal">Tùy vào lịch bạn đăng ký mà bạn có thể chọn 8 hoặc 10h</a>
+                                    </div>
+                                </li>
+                                <li class="timeline-item d-flex position-relative overflow-hidden">
+                                    <div class="timeline-time text-dark flex-shrink-0 text-end">15:00 am <br /> 16:00 am </div>
+                                    <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                                        <span class="timeline-badge border-2 border border-success flex-shrink-0 my-2"></span>
+                                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                                    </div>
+                                    <div class="timeline-desc fs-3 text-dark mt-n1">Hết giờ làm buổi sáng <br /> Bắt đầu ca 1 buổi chiều </div>
+                                </li>
+                                <li class="timeline-item d-flex position-relative overflow-hidden">
+                                    <div class="timeline-time text-dark flex-shrink-0 text-end">16:00 pm</div>
+                                    <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                                        <span class="timeline-badge border-2 border border-warning flex-shrink-0 my-2"></span>
+                                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                                    </div>
+                                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">
+                                        Bắt đầu ca 2 buổi chiều <a href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
+                                    </div>
+                                </li>
+                                <li class="timeline-item d-flex position-relative overflow-hidden">
+                                    <div class="timeline-time text-dark flex-shrink-0 text-end">22:00 pm </div>
+                                    <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                                        <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-2"></span>
+                                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                                    </div>
+                                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">
+                                        Hết giờ làm buổi chiều
+                                    </div>
+                                </li>
+                                <li class="timeline-item d-flex position-relative overflow-hidden">
+                                    <div class="timeline-time text-dark flex-shrink-0 text-end">22:15 pm </div>
+                                    <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                                        <span class="timeline-badge border-2 border border-success flex-shrink-0 my-2"></span>
+                                    </div>
+                                    <div class="timeline-desc fs-3 text-dark mt-n1">Làm các công việc ngoài giờ khác </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 d-flex align-items-stretch" style="width:60%">
+                    <div class="card w-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-4 justify-content-between align-items-center">
+                                <h5 class="mb-0 fw-bold">Xếp hạng nhân viên</h5>
+
+                                <div class="dropdown">
+                                    <button id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                            class="rounded-circle btn-transparent rounded-circle btn-sm px-1 btn shadow-none">
+                                        <i class="ti ti-dots-vertical fs-7 d-block"></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end"
+                                        aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Đánh giá</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Bầu chọn</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Donate</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive" data-simplebar>
+                                <table class="table table-borderless align-middle text-nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Hồ sơ</th>
+                                            <th scope="col">Doanh thu</th>
+                                            <th scope="col">Tiến độ</th>
+                                            <th scope="col">Trạng thái</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-4">
+                                                        <img src="../assets/images/profile/user1.jpg"
+                                                             width="50"
+                                                             class="rounded-circle"
+                                                             alt="" />
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 class="mb-1 fw-bolder">Phạm Phúc Khả</h6>
+                                                        <p class="fs-3 mb-0">Admin</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0">23.000VND/h</p>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0 text-success">
+                                                    +53
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-light-success rounded-pill text-success px-3 py-2 fs-3">Tốt</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-4">
+                                                        <img src="../assets/images/profile/user2.jpg"
+                                                             width="50"
+                                                             class="rounded-circle"
+                                                             alt="" />
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 class="mb-1 fw-bolder">Phạm Nguyễn Thành Nhân</h6>
+                                                        <p class="fs-3 mb-0">Nhân viên</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0">35.000VND/h</p>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0 text-success">
+                                                    +68
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-light-primary rounded-pill text-primary px-3 py-2 fs-3">Khá</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-4">
+                                                        <img src="../assets/images/profile/user3.jpg"
+                                                             width="50"
+                                                             class="rounded-circle"
+                                                             alt="" />
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 class="mb-1 fw-bolder">Đỗ Danh Sáng</h6>
+                                                        <p class="fs-3 mb-0">Nhân viên lâu năm</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0">35.000VND/h</p>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0 text-success">
+                                                    +94
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-light-danger rounded-pill text-danger px-3 py-2 fs-3">Tệ</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-4">
+                                                        <img src="../assets/images/profile/user4.jpg"
+                                                             width="50"
+                                                             class="rounded-circle"
+                                                             alt="" />
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 class="mb-1 fw-bolder">Lưu Gia Linh</h6>
+                                                        <p class="fs-3 mb-0">Nhân viên thâm niên</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0">1.000VND/h</p>
+                                            </td>
+                                            <td>
+                                                <p class="fs-3 fw-normal mb-0 text-success">
+                                                    +27
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-light-warning rounded-pill text-warning px-3 py-2 fs-3">Đang làm </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:0 1.5% 0 1.2%">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card overflow-hidden rounded-2" >
+                        <div class="position-relative">
+                            <a href="javascript:void(0)"><img src="../assets/images/products/R.jpeg" class="card-img-top rounded-0" alt="..."></a>
+                            <a href="javascript:void(0)" class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i class="ti ti-basket fs-4"></i></a>
+                        </div>
+                        <div class="card-body pt-3 p-4">
+                            <h6 class="fw-semibold fs-4">Nhà hàng Nhật bản</h6>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h6 class="fw-semibold fs-4 mb-0">500.000VND <span class="ms-2 fw-normal text-muted fs-3"><del>350.000VND</del></span></h6>
+                                <ul class="list-unstyled d-flex align-items-center mb-0">
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                    <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card overflow-hidden rounded-2">
+                        <div class="position-relative">
+                            <a href="javascript:void(0)"><img src="../assets/images/products/OIP.jpeg" class="card-img-top rounded-0" alt="..."></a>
+                            <a href="javascript:void(0)" class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i class="ti ti-basket fs-4"></i></a>
+                        </div>
+                        <div class="card-body pt-3 p-4">
+                            <h6 class="fw-semibold fs-4">Seafood Restaurances</h6>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h6 class="fw-semibold fs-4 mb-0">3.500.000VND <span class="ms-2 fw-normal text-muted fs-3"><del>2.000.000VND</del></span></h6>
+                                <ul class="list-unstyled d-flex align-items-center mb-0">
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                    <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card overflow-hidden rounded-2">
+                        <div class="position-relative">
+                            <a href="javascript:void(0)"><img src="../assets/images/products/nh1.jpeg" class="card-img-top rounded-0" alt="..."></a>
+                            <a href="javascript:void(0)" class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i class="ti ti-basket fs-4"></i></a>
+                        </div>
+                        <div class="card-body pt-3 p-4">
+                            <h6 class="fw-semibold fs-4">Sabaolo</h6>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h6 class="fw-semibold fs-4 mb-0">2.850.000VND <span class="ms-2 fw-normal text-muted fs-3"><del>2.000.000VND</del></span></h6>
+                                <ul class="list-unstyled d-flex align-items-center mb-0">
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                    <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card overflow-hidden rounded-2">
+                        <div class="position-relative">
+                            <a href="javascript:void(0)"><img src="../assets/images/products/nh2.jpeg" class="card-img-top rounded-0" alt="..."></a>
+                            <a href="javascript:void(0)" class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i class="ti ti-basket fs-4"></i></a>
+                        </div>
+                        <div class="card-body pt-3 p-4">
+                            <h6 class="fw-semibold fs-4">Office Restaurances</h6>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h6 class="fw-semibold fs-4 mb-0">450.000VND <span class="ms-2 fw-normal text-muted fs-3"><del>250.000VND</del></span></h6>
+                                <ul class="list-unstyled d-flex align-items-center mb-0">
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star-filled text-warning"></i></a></li>
+                                    <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                    <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-6 px-6 text-center">
+                <p class="mb-0 fs-4">Thiết kế và Phát triển bới PhucKha.com</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/sidebarmenu.js"></script>
+    <script src="~/assets/js/app.min.js"></script>
+    <script src="~/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="~/assets/libs/simplebar/dist/simplebar.js"></script>
+    <script src="~/assets/js/dashboard.js"></script>
+</body>
+
+</html>
+
+
+

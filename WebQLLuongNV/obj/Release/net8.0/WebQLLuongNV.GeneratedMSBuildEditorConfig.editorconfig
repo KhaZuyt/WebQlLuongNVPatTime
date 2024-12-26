@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebQLLuongNV
+build_property.RootNamespace = WebQLLuongNV
+build_property.ProjectDir = D:\DA_ThucTapChuyenNganh\DA_ThucTapChuyenNganh\WebQLLuongNV - Sao chép - Sao chép\WebQLLuongNV\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DA_ThucTapChuyenNganh\DA_ThucTapChuyenNganh\WebQLLuongNV - Sao chép - Sao chép\WebQLLuongNV
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/authentication_login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0aGVudGljYXRpb25fbG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/authentication_register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0aGVudGljYXRpb25fcmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Dangky/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ2t5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/danhSachNhanVien/chitietnhanvien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGFuaFNhY2hOaGFuVmllblxjaGl0aWV0bmhhbnZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/danhSachNhanVien/formSuaNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGFuaFNhY2hOaGFuVmllblxmb3JtU3VhTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/danhSachNhanVien/formThemNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGFuaFNhY2hOaGFuVmllblxmb3JtVGhlbU5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/danhSachNhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGFuaFNhY2hOaGFuVmllblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Home/DanhSachDangKy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYW5oU2FjaERhbmdLeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Home/formhienbuoiDangky.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmb3JtaGllbmJ1b2lEYW5na3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Home/formthemcongvieckhac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmb3JtdGhlbWNvbmd2aWVja2hhYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/formchitietcalamviec.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxmb3JtY2hpdGlldGNhbGFtdmllYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/formsuabuoilichlam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxmb3Jtc3VhYnVvaWxpY2hsYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/formSuaLichLam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxmb3JtU3VhTGljaExhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/formTaoLichLam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxmb3JtVGFvTGljaExhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/formthembuoi_chitietlichlam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxmb3JtdGhlbWJ1b2lfY2hpdGlldGxpY2hsYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/hienchitietBuoiLichlam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxoaWVuY2hpdGlldEJ1b2lMaWNobGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lich/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGljaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/lienHe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGllbkhlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/loaicongviec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9haWNvbmd2aWVjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/luongcanhan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbHVvbmdjYW5oYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/luong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbHVvbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/luong/luongmoinhanvien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbHVvbmdcbHVvbmdtb2luaGFudmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/motahuongdancongviec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbW90YWh1b25nZGFuY29uZ3ZpZWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/taikhoannhanvien/formSuaTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGFpa2hvYW5uaGFudmllblxmb3JtU3VhVGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/taikhoannhanvien/formThemTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGFpa2hvYW5uaGFudmllblxmb3JtVGhlbVRhaUtob2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/taikhoannhanvien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGFpa2hvYW5uaGFudmllblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DA_ThucTapChuyenNganh/DA_ThucTapChuyenNganh/WebQLLuongNV - Sao chép - Sao chép/WebQLLuongNV/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f3wm77tech

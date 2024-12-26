@@ -1,0 +1,56 @@
+﻿@model WebQLLuongNV.Models.LichLam;
+
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <div class="container my-4">
+                <h3 class="mb-4 text-center">Nhập Lịch Làm Việc</h3>
+                <form asp-action="taolichlam" method="post" id="lichForm">
+                    <div class="row">
+                        <!-- Cột 1 -->
+                        <div class="alert alert-warning" role="alert">
+                          Lưu ý : Nguyên tắc tạo mã là 'LL' + ngày tạo !
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="MaLichLam" class="control-label small">Mã Lịch Làm</label>
+                                <input asp-for="MaLichLam" type="text" class="form-control form-control-sm" />
+                                <span asp-validation-for="MaLichLam" class="text-danger"></span>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="row">
+                        <!-- Cột 1 -->
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="ThuNgayThangNam" class="control-label small">Ngày Tháng Năm</label>
+                                <input asp-for="ThuNgayThangNam" class="form-control form-control-sm" type="date" />
+                                <span asp-validation-for="ThuNgayThangNam" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <!-- Cột 2 -->
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="SoCaQuyDinh" class="control-label small">Số Ca Quy Định</label>
+                                <input asp-for="SoCaQuyDinh" type="number" class="form-control form-control-sm" />
+                                <span asp-validation-for="SoCaQuyDinh" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-sm">Lưu Lịch Làm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

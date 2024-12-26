@@ -1,0 +1,88 @@
+﻿@model WebQLLuongNV.Models.NhanVien
+<style>
+
+</style>
+<body>
+
+    <div>
+
+        <!-- Bảng thông tin nhân viên -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-sm">
+                <colgroup>
+                    <col style="width: 30%;"> <!-- Cột 1 có chiều rộng 30% -->
+                    <col style="width: 70%;"> <!-- Cột 2 chiếm phần còn lại -->
+                </colgroup>
+                <thead>
+                    <tr class="table-primary">
+                        <th colspan="2" class="text-center">Thông tin nhân viên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><small>Mã nhân viên:</small></td>
+                        <td><small>@Model.MaNhanVien</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Tên nhân viên:</small></td>
+                        <td><small>@Model.TenNhanVien</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>CMND:</small></td>
+                        <td><small>@Model.Cmnd</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Số điện thoại:</small></td>
+                        <td><small>@Model.Sdt</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Email:</small></td>
+                        <td><small>@Model.Email</small></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Bảng thông tin tài khoản -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-sm">
+                <thead>
+                    <tr class="table-primary">
+                        <th colspan="2" class="text-center">Thông tin tài khoản</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><small>Mã tài khoản:</small></td>
+                        <td><small>@Model.MaTaiKhoan</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Tên tài khoản:</small></td>
+                        <td><small>@Model.MaTaiKhoanNavigation?.TenTaiKhoan</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Mật khẩu:</small></td>
+                        <td><small>@Model.MaTaiKhoanNavigation?.MatKhau</small></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Bảng thông tin vai trò -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-sm">
+                <thead>
+                    <tr class="table-primary">
+                        <th colspan="2" class="text-center">Vai trò</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><small>Vai trò:</small></td>
+                        <td><small>@Model.MaTaiKhoanNavigation?.MaVaiTroNavigation?.TenVaiTro</small></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>

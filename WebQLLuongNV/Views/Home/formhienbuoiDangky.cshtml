@@ -1,0 +1,711 @@
+﻿@model IEnumerable<WebQLLuongNV.Models.ViewModel.CChitietlichlam>
+@{
+    var loaiCongViecs = ViewBag.DSLoaicongviec as SelectList;
+    var lichs = ViewBag.DSlich as SelectList ; 
+}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spike Free</title>
+    <link rel="shortcut icon" type="image/png" href="~/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/assets/css/styles.min.css" />
+</head>
+<style>
+    .table th, .table td {
+        vertical-align: middle;
+        border-color: #dee2e6;
+    }
+
+    .table th {
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .table td {
+        font-size: 14px;
+    }
+
+    .custom-table {
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+   
+    .increased-height > td, .increased-height > th {
+        height: 180px;
+        padding: 2rem;
+    }
+
+   
+    .table td {
+        padding: 0.5rem;
+        white-space: normal; 
+        word-break: keep-all;
+        overflow-wrap: break-word; 
+    }
+
+    #cotTitle {
+        padding: 0.5rem;
+        white-space: normal; 
+        word-break: keep-all;
+        overflow-wrap: break-word; 
+    }
+
+    .inputTien {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    /* Đảm bảo chữ nhỏ lại và căn trái */
+    .entry {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .small-text {
+        font-size: 0.8rem;
+    }
+
+    .small-table th, .small-table td {
+        padding: 0.2rem;
+    }
+
+    .small-button {
+        font-size: 0.4rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+
+    #workForm {
+        margin-top: -120px;
+    }
+</style>
+<body>
+    <!--  Body Wrapper -->
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <!-- Sidebar Start -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar" data-simplebar>
+                <div class="d-flex mb-4 align-items-center justify-content-between">
+                    <a href="~/Home" class="text-nowrap logo-img ms-0 ms-md-1">
+                        <img style="margin-left:60%;border-radius:10%" src="~/assets/images/logos/logoTrangchu.webp" width="100" alt="">
+
+                    </a>
+                    <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                        <i class="ti ti-x fs-8"></i>
+                    </div>
+                </div>
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="mb-4 pb-2">
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Trang chủ</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/Home"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-layout-dashboard fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Trang đăng ký</span>
+                            </a>
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Thao tác </span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link warning-hover-bg"
+                               href="~/lich"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-warning rounded-3">
+                                    <i class="ti ti-article fs-7 text-warning"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lịch</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link danger-hover-bg"
+                               href="~/luongcanhan"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-danger rounded-3">
+                                    <i class="ti ti-alert-circle fs-7 text-danger"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lương cá nhân</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link success-hover-bg"
+                               href="~/danhSachNhanVien"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-success rounded-3">
+                                    <i class="ti ti-cards fs-7 text-success"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Danh sách nhân viên</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/Dangky"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-file-description fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Danh sách đã đăng ký<span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link indigo-hover-bg"
+                               href="~/luong"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-indigo rounded-3">
+                                    <i class="ti ti-typography fs-7 text-indigo"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Lương</span>
+                            </a>
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Tài khoản</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link warning-hover-bg"
+                               href="~/authentication_login"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-warning rounded-3">
+                                    <i class="ti ti-login fs-7 text-warning"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Đăng xuất</span>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link danger-hover-bg"
+                               href="~/authentication_register"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-danger rounded-3">
+                                    <i class="ti ti-user-plus fs-7 text-danger"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Đăng ký</span>
+                            </a>
+
+                        </li>
+                        <li class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Xem thêm</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link success-hover-bg"
+                               href="~/taikhoannhanvien"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-success rounded-3">
+                                    <i class="ti ti-mood-happy fs-7 text-success"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Tài khoản nhân viên</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link primary-hover-bg"
+                               href="~/loaicongviec"
+                               aria-expanded="false">
+                                <span class="aside-icon p-2 bg-light-primary rounded-3">
+                                    <i class="ti ti-aperture fs-7 text-primary"></i>
+                                </span>
+                                <span class="hide-menu ms-2 ps-1">Loại công việc</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="pb-3 options text-nowrap">
+                        <div class="nav-small-cap">
+                            <i class="ti ti-dots nav-small-cap-icon fs-5"></i>
+                            <span class="hide-menu">Lựa chọn khác</span>
+                        </div>
+
+                        <ul class="sidebar-list">
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-primary fs-4"></i>
+                                <span class="hide-menu ms-2">Liên hệ Quản lý </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-danger fs-4"></i>
+                                <span class="hide-menu ms-2">Thông tin cá nhân </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-warning fs-4"></i>
+                                <span class="hide-menu ms-2">Khiếu nại </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-success fs-4"></i>
+                                <span class="hide-menu ms-2">Nhận lương online </span>
+                            </li>
+                            <li class="sidebar-list-item">
+                                <i class="ti ti-circle text-indigo fs-4"></i>
+                                <span class="hide-menu ms-2">.v.vv..</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-5 blocks-card sidebar-ad">
+                        <div class="card bg-light-primary">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img src="~/assets/images/backgrounds/education-blocks.png"
+                                         width="136"
+                                         height="136"
+                                         class="mt-n9"
+                                         alt="" />
+
+                                    <h5>Bạn có hài lòng <br /> khi sử dụng ứng dụng này không ?</h5>
+
+                                    <div class="mt-4">
+                                        <a href="" target="_blank" class="btn btn-primary buynow-link w-100 px-2">
+                                            Góp ý
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!--  Sidebar End -->
+        <!--  Main wrapper -->
+        <div class="body-wrapper">
+            <!--  Header Start -->
+            <header class="app-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-block d-xl-none">
+                            <a class="nav-link sidebartoggler nav-icon-hover" id="headerCollapse" href="javascript:void(0)">
+                                <i class="ti ti-menu-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon-hover" href="javascript:void(0)">
+                                <i class="ti ti-bell-ringing"></i>
+                                <div class="notification bg-primary rounded-circle"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+                        <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+                            <a class="btn btn-primary">     Chào @(ViewContext.HttpContext.Session.GetString("TenNhanVien") ?? "Khách")</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
+                                   aria-expanded="false">
+                                    <img src="../assets/images/profile/user1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                                    <div class="message-body">
+                                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-user fs-6"></i>
+                                            <p class="mb-0 fs-3">Thông tin cá nhân</p>
+                                        </a>
+                                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-mail fs-6"></i>
+                                            <p class="mb-0 fs-3">Tài khoản cá nhân</p>
+                                        </a>
+                                        <a href="~/Dangky" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-list-check fs-6"></i>
+                                            <p class="mb-0 fs-3">Danh sách đã đăng ký</p>
+                                        </a>
+                                        <a href="~/authentication_login" class="btn btn-outline-primary mx-3 mt-2 d-block shadow-none">Đăng xuất </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </header>
+            <!--  Header End -->
+            <div class="container-fluid">
+                <!-- Schedule Details Section -->
+                <div class="card shadow mb-5 border-0" style="border-radius: 12px;">
+                    <div class="card-body p-5">
+                        <h4 class="text-center fw-bold mb-4" style="color: #4A4A4A;">Danh sách các buổi của từng lịch</h4>
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">Ngày: <span style="color: #6c63ff;">@ViewBag.ThuNgayThangNam</span></h6>
+                        </div>
+                        <div class="table-responsive">
+                            @if (Model != null && Model.Any())
+                            {
+                                <table class="table table-bordered text-center align-middle" style="border-radius: 12px; overflow: hidden;">
+                                    <thead style="background-color: #6c63ff; color: black;">
+                                        <tr>
+                                            <th style="color: black;">Nơi Làm</th>
+                                            <th style="color: black;">Số ca làm</th>
+                                            <th style="color: black;">Người Làm / Tổng số ca</th>
+                                            <th style="color: black;">Giờ Bắt Đầu</th>
+                                            <th style="color: black;">Giờ Kết Thúc</th>
+                                            <th style="color: black;">Lương Loại Công Việc</th>
+                                            <th style="color: black;">Số người làm / Số Ca CVK</th>
+                                            <th style="color: black;">Tên Công Việc</th>
+                                            <th style="color: black;">Thao tác</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr style="background-color: #f9f9f9;">
+                                                <td>@item.NoiLam</td>
+                                                <td>
+                                                    <table class="table table-sm small-text">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Tên Ca</th>
+                                                                <th>Số Lượng</th>
+                                                                <th>Thao tác</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @if (item.ChiTietCaLamViecs != null && item.ChiTietCaLamViecs.Any())
+                                                            {
+                                                                @foreach (var ca in item.ChiTietCaLamViecs)
+                                                                {
+                                                                    <tr>
+                                                                        <td>@ca.IdcaLamViecNavigation?.TenCa</td>
+                                                                        <td>@ca.SoLuong</td>
+                                                                        <td>
+                                                                            <button id="btnDangKy-@item.IdChitietLichLam-@ca.Id"
+                                                                                    class="btn btn-success btn-sm"
+                                                                                    onclick="dangky(@item.IdChitietLichLam, @ca.Id)"
+                                                                            @(item.Songuoilam >= ca.SoLuong ? "disabled" : "")>
+                                                                                Đký
+                                                                            </button>
+                                                                        </td>
+                                                                    </tr>
+                                                                }
+                                                            }
+                                                            else
+                                                            {
+                                                                <tr>
+                                                                    <td colspan="3">Không có dữ liệu</td>
+                                                                </tr>
+                                                            }
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td id="soNguoiLam-@item.IdChitietLichLam">
+                                                    @(item.Songuoilam ?? 0) / @(item.TongSoCaQuyDinh ?? 0)
+                                                  
+                                                </td>
+                                                
+                                                <td>@item.GioBd?.ToString(@"hh\:mm")</td>
+                                                <td>@item.GioKt?.ToString(@"hh\:mm")</td>
+                                                <td>@item.LuongLoaiCv</td>
+                                                <td>
+                                                    <p>
+                                                        <span id="soNguoiLamCVK-@item.IdChitietLichLam">
+                                                            @(item.SonguoilamCvk ?? 0) / @(item.SoCaCvk ?? 0)
+                                                        </span>
+                                                    </p>
+                                                    <button id="btnDangKyCVK-@item.IdChitietLichLam"
+                                                            class="btn btn-success btn-sm"
+                                                            onclick="dangkyCVK(@item.IdChitietLichLam)">
+                                                        Đký CVK
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    @if (loaiCongViecs != null)
+                                                    {
+                                                        var loaiCongViec = loaiCongViecs.FirstOrDefault(l => l.Value == item.MaLoaiCongViec)?.Text;
+                                                        @loaiCongViec
+                                                    }
+                                                </td>
+                                                <td>
+                                                    <a href="~/lienHe" class="btn btn-success btn-sm">LH bổ sung</a>
+                                                    <a asp-action="XemChiTiet" asp-controller="Home" asp-route-idChiTietLichLam="@item.IdChitietLichLam" class="btn btn-primary btn-sm" style="margin-top:10px;">Xem DS ĐKý</a>
+                                                   
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            }
+                            else
+                            {
+                                <p class="text-center fw-bold text-muted">Không có dữ liệu</p>
+                            }
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="small-text text-center">Hãy bấm xác nhận nếu bạn đã chắc chắn đăng ký !</p>
+                            <button id="btnXacNhanDangKy" class="btn btn-primary px-4 py-2" onclick="xacNhanDangKy()">Xác nhận đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+          <script>
+            window.onload = function () {
+                // Lấy danh sách đã đăng ký từ server
+                $.ajax({
+                    url: '@Url.Action("GetDanhSachDaDangKy", "Home")',
+                    type: 'GET',
+                    success: function (response) {
+                        if (response.success) {
+                            const danhSachDangKy = response.data;
+
+                            // Cập nhật nút Đký
+                            document.querySelectorAll('[id^="btnDangKy-"]').forEach(function (btn) {
+                                const ids = btn.id.split("-");
+                                const idChiTietLichLam = parseInt(ids[1]);
+                                const idChiTietCaLamViec = parseInt(ids[2]);
+
+                                if (danhSachDangKy.some(dk => dk.IdchitietLichLam === idChiTietLichLam && dk.LoaiDangKy === "PV")) {
+                                    btn.innerText = "Hủy";
+                                    btn.className = "btn btn-danger btn-sm";
+                                    btn.setAttribute("onclick", `huydky(${idChiTietLichLam}, ${idChiTietCaLamViec})`);
+                                    disableOtherButtons(idChiTietLichLam);
+                                }
+                            });
+
+                            // Cập nhật nút Đký CVK
+                            document.querySelectorAll('[id^="btnDangKyCVK-"]').forEach(function (btn) {
+                                const idChitietLichLam = parseInt(btn.id.split("-")[1]);
+
+                                if (danhSachDangKy.some(dk => dk.IdchitietLichLam === idChitietLichLam && dk.LoaiDangKy === "CVK")) {
+                                    btn.innerText = "Hủy CVK";
+                                    btn.className = "btn btn-danger btn-sm";
+                                    btn.setAttribute("onclick", `huydkyCVK(${idChitietLichLam})`);
+                                }
+                            });
+                        } else {
+                            console.error(response.message || "Không thể tải trạng thái từ server!");
+                        }
+                    },
+                    error: function () {
+                        console.error("Không thể kết nối đến server để tải trạng thái.");
+                    }
+                });
+            };
+
+
+               function disableOtherButtons(idChiTietLichLam) {
+                   document.querySelectorAll(`[id^="btnDangKy-${idChiTietLichLam}-"]`).forEach(function (btn) {
+                       if (btn.innerText === "Đký") {
+                           btn.disabled = true;
+                       }
+                   });
+               }
+
+               function enableOtherButtons(idChiTietLichLam) {
+                   document.querySelectorAll(`[id^="btnDangKy-${idChiTietLichLam}-"]`).forEach(function (btn) {
+                       btn.disabled = false;
+                   });
+               }
+               function dangky(idChiTietLichLam, idChiTietCaLamViec) {
+                   const btn = document.getElementById(`btnDangKy-${idChiTietLichLam}-${idChiTietCaLamViec}`);
+                   btn.disabled = true;
+
+                   $.ajax({
+                       url: '@Url.Action("DangKy", "Home")',
+                       type: 'POST',
+                       data: { idChiTietLichLam, idChiTietCaLamViec },
+                       success: function (response) {
+                           if (response.success) {
+                               alert("Đăng ký thành công!");
+
+                               btn.innerText = "Hủy";
+                               btn.className = "btn btn-danger btn-sm";
+                               btn.setAttribute("onclick", `huydky(${idChiTietLichLam}, ${idChiTietCaLamViec})`);
+                               btn.disabled = false;
+
+                               updateSoNguoiLam(idChiTietLichLam, 1);
+                               disableOtherButtons(idChiTietLichLam);
+                           } else {
+                               alert(response.message || "Không thể đăng ký!");
+                               btn.disabled = false;
+                           }
+                       },
+                       error: function () {
+                           alert("Không thể kết nối đến server!");
+                           btn.disabled = false;
+                       }
+                   });
+               }
+
+               function huydky(idChiTietLichLam, idChiTietCaLamViec) {
+                   const btn = document.getElementById(`btnDangKy-${idChiTietLichLam}-${idChiTietCaLamViec}`);
+                   btn.disabled = true;
+
+                   $.ajax({
+                       url: '@Url.Action("HuyDangKy", "Home")',
+                       type: 'POST',
+                       data: { idChiTietLichLam },
+                       success: function (response) {
+                           if (response.success) {
+                               alert("Hủy đăng ký thành công!");
+
+                               btn.innerText = "Đký";
+                               btn.className = "btn btn-success btn-sm";
+                               btn.setAttribute("onclick", `dangky(${idChiTietLichLam}, ${idChiTietCaLamViec})`);
+                               btn.disabled = false;
+
+                               updateSoNguoiLam(idChiTietLichLam, -1);
+                               enableOtherButtons(idChiTietLichLam);
+                           } else {
+                               alert(response.message || "Không thể hủy đăng ký!");
+                               btn.disabled = false;
+                           }
+                       },
+                       error: function () {
+                           alert("Không thể kết nối đến server!");
+                           btn.disabled = false;
+                       }
+                   });
+               }
+               function dangkyCVK(idChiTietLichLam) {
+                   const btn = document.getElementById(`btnDangKyCVK-${idChiTietLichLam}`);
+                   btn.disabled = true;
+
+                   $.ajax({
+                       url: '@Url.Action("DangKyCVK", "Home")',
+                       type: 'POST',
+                       data: { idChiTietLichLam },
+                       success: function (response) {
+                           if (response.success) {
+                               alert("Đăng ký CVK thành công!");
+
+                               btn.innerText = "Hủy CVK";
+                               btn.className = "btn btn-danger btn-sm";
+                               btn.setAttribute("onclick", `huydkyCVK(${idChiTietLichLam})`);
+                               btn.disabled = false;
+
+                               // Cập nhật trạng thái vào localStorage
+                               localStorage.setItem(`dangkyCVK-${idChiTietLichLam}`, "true");
+
+                               updateSoNguoiLamCVK(idChiTietLichLam, 1);
+                           } else {
+                               alert(response.message || "Không thể đăng ký CVK!");
+                               btn.disabled = false;
+                           }
+                       },
+                       error: function () {
+                           alert("Không thể kết nối đến server!");
+                           btn.disabled = false;
+                       }
+                   });
+               }
+
+               function huydkyCVK(idChiTietLichLam) {
+                   const btn = document.getElementById(`btnDangKyCVK-${idChiTietLichLam}`);
+                   btn.disabled = true;
+
+                   $.ajax({
+                       url: '@Url.Action("HuyDangKyCVK", "Home")',
+                       type: 'POST',
+                       data: { idChiTietLichLam },
+                       success: function (response) {
+                           if (response.success) {
+                               alert("Hủy CVK thành công!");
+
+                               btn.innerText = "Đký CVK";
+                               btn.className = "btn btn-success btn-sm";
+                               btn.setAttribute("onclick", `dangkyCVK(${idChiTietLichLam})`);
+                               btn.disabled = false;
+
+                               // Xóa trạng thái khỏi localStorage
+                               localStorage.removeItem(`dangkyCVK-${idChiTietLichLam}`);
+
+                               updateSoNguoiLamCVK(idChiTietLichLam, -1);
+                           } else {
+                               alert(response.message || "Không thể hủy CVK!");
+                               btn.disabled = false;
+                           }
+                       },
+                       error: function () {
+                           alert("Không thể kết nối đến server!");
+                           btn.disabled = false;
+                       }
+                   });
+               }
+
+
+               function updateSoNguoiLam(idChiTietLichLam, increment) {
+                   const element = document.getElementById(`soNguoiLam-${idChiTietLichLam}`);
+                   if (element) {
+                       const parts = element.innerText.split("/");
+                       const currentCount = parseInt(parts[0].trim()) + increment;
+                       const maxCount = parseInt(parts[1].trim());
+                       element.innerText = `${currentCount} / ${maxCount} `;
+                   }
+               }
+
+               function updateSoNguoiLamCVK(idChiTietLichLam, increment) {
+                   const element = document.getElementById(`soNguoiLamCVK-${idChiTietLichLam}`);
+                   if (element) {
+                       const parts = element.innerText.split("/");
+                       const currentCount = parseInt(parts[0].trim()) + increment;
+                       const maxCount = parseInt(parts[1].trim());
+                       element.innerText = `${currentCount} / ${maxCount}`;
+                   }
+               }
+
+            function xacNhanDangKy() {
+                const dangKyCLK = [];
+                const dangKyCVK = [];
+
+                // Duyệt qua các nút Đký
+                document.querySelectorAll('[id^="btnDangKy-"]').forEach(function (btn) {
+                    if (btn.innerText === "Hủy") {
+                        const ids = btn.id.split("-");
+                        dangKyCLK.push(parseInt(ids[1])); // Lấy idChiTietLichLam
+                    }
+                });
+
+                // Duyệt qua các nút Đký CVK
+                document.querySelectorAll('[id^="btnDangKyCVK-"]').forEach(function (btn) {
+                    if (btn.innerText === "Hủy CVK") {
+                        const idChitietLichLam = parseInt(btn.id.split("-")[1]);
+                        dangKyCVK.push(idChitietLichLam);
+                    }
+                });
+
+                // Gửi danh sách đăng ký lên server
+                $.ajax({
+                    url: '@Url.Action("XacNhanDangKy", "Home")',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ dangKyCLK, dangKyCVK }),
+                    success: function (response) {
+                        if (response.success) {
+                            alert(response.message || "Xác nhận đăng ký thành công!");
+                        } else {
+                            alert(response.message || "Không thể xác nhận đăng ký!");
+                        }
+                    },
+                    error: function () {
+                        alert("Không thể kết nối đến server!");
+                    }
+                });
+            }
+
+
+           </script> 
+     
+
+
+
+        <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
+        <script src="~/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assets/js/sidebarmenu.js"></script>
+        <script src="~/assets/js/app.min.js"></script>
+        <script src="~/assets/libs/simplebar/dist/simplebar.js"></script>
+</body>
+
+</html>
