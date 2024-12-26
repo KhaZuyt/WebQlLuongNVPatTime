@@ -1,6 +1,14 @@
 # WebQlLuongNVPatTime
 Web quản lý lương nhân viên Part-Time 
 
+
+## Hướng dẫn cài đặt 
+
+- **B1**:Tải source về
+- **B2**:Thay đổi chuỗi kết nối trong project ví dụ trong QlnvpartTimeContext.cs và appsetting.json :
+        - Server=LAPTOP-HILGSKCM;Database=QLNVPartTime;Trusted_Connection=True;TrustServerCertificate=True;
+- **B3**:Import dữ liệu vào có tên file là data_WebQLLuongNV.spl
+
 ---
 
 ## Hướng dẫn sử dụng 
